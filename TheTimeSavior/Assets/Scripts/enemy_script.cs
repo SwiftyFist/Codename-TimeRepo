@@ -67,7 +67,7 @@ public class enemy_script : MonoBehaviour
 
         if (collision.gameObject.name == "Player")
         {
-
+			
             if (lookleft && collision.transform.position.x > _transform.position.x || !lookleft && collision.transform.position.x < _transform.position.x)
                 Gira();
 

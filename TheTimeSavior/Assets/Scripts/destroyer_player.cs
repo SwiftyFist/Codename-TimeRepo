@@ -22,9 +22,13 @@ public class destroyer_player : MonoBehaviour
 
 	//Quando entra in collisione con il player riparte la scena (game over)
 	//Nella versione finale deve entrare nella scena level_hub dopo aver dato una schermata di game over con le statistiche sul punteggio
-    public void OnTriggerEnter2D(Collider2D collision)
+	public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Player") SceneManager.LoadScene("Level");
+		if (collision.gameObject.tag == "Player")
+			SceneManager.LoadScene ("Level_Present");
+		else {
+			Destroy (collision.gameObject);
+		}
 
     }
 

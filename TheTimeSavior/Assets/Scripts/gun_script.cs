@@ -14,6 +14,7 @@ public class gun_script : MonoBehaviour {
     private Vector2 Mouse;
     private Vector2 firePointPosition;
     private RaycastHit2D hit;
+	private AudioSource _shootSound;
 
 
 	//Nell'awake nella variabile transform FirePoint va a prendere il figlio dell'arma FirePoint se non è presente da un errore di debug.
@@ -25,6 +26,8 @@ public class gun_script : MonoBehaviour {
         {
             Debug.LogError("No Firepoint");
         }
+
+		_shootSound = GetComponent<AudioSource>();
 	}
 
 	void Update () {
@@ -63,7 +66,7 @@ public class gun_script : MonoBehaviour {
 		
          Mouse = new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
          firePointPosition = new Vector2(FirePoint.position.x,FirePoint.position.y);
-         hit = Physics2D.Raycast(firePointPosition, Mouse - firePointPosition, 100, whatToHit);
+         //hit = Physics2D.Raycast(firePointPosition, Mouse - firePointPosition, 100, whatToHit);
 		CalculateWhereIamLooking();
 		Effect();
 
@@ -92,6 +95,7 @@ public class gun_script : MonoBehaviour {
     void Effect()
     {
         Instantiate(BulletPrefab, FirePoint.position, FirePoint.rotation);
+		_shootSound.Play ();
     }
 
 
