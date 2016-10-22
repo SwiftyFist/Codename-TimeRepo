@@ -67,7 +67,7 @@ public class gun_script : MonoBehaviour {
          Mouse = new Vector2(Camera.main.ScreenToWorldPoint(Input.mousePosition).x, Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
          firePointPosition = new Vector2(FirePoint.position.x,FirePoint.position.y);
          //hit = Physics2D.Raycast(firePointPosition, Mouse - firePointPosition, 100, whatToHit);
-		CalculateWhereIamLooking();
+		//CalculateWhereIamLooking();
 		Effect();
 
     }

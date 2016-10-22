@@ -1,13 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\destroyer_player.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\audio_manager_script.cs">
     <Files>
-      <File FileName="Assets\Scripts\enemy_script.cs" Line="61" Column="112" />
-      <File FileName="Assets\Scripts\destroyer_player.cs" Line="28" Column="42" />
+      <File FileName="Assets\Scripts\enemy_script.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\destroyer_player.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\player_script.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\gun_script.cs" Line="15" Column="39" />
-      <File FileName="Assets\Scripts\arm_rotation_script.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\move_bullet_script.cs" Line="37" Column="58" />
+      <File FileName="Assets\Scripts\gun_script.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\arm_rotation_script.cs" Line="33" Column="6" />
+      <File FileName="Assets\Scripts\move_bullet_script.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\audio_manager_script.cs" Line="27" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

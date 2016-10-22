@@ -75,9 +75,7 @@ public class player_script : MonoBehaviour
         _animator.SetFloat("Vertical_Speed", _rigidbody.velocity.y);
 
 
-        if ((lookright && _rigidbody.velocity.x < -1f)|| (!lookright && _rigidbody.velocity.x > 0.1f))
-            Gira();
-
+       
 
 
     }

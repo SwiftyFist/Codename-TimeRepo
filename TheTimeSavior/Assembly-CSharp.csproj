@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\arm_rotation_script.cs" />
+     <Compile Include="Assets\Scripts\audio_manager_script.cs" />
      <Compile Include="Assets\Scripts\destroyer_player.cs" />
      <Compile Include="Assets\Scripts\enemy_script.cs" />
      <Compile Include="Assets\Scripts\gun_script.cs" />
