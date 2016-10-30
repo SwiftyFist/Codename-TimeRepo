@@ -43,7 +43,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 144474}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.21, y: -8.1, z: 0}
+  m_LocalPosition: {x: -5.27, y: -8.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -198,6 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ca9ca13df391a74c970e371004511d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _transform: {fileID: 0}
   lookright: 1
   isGrounded: 0
   JumpForce: 25
@@ -422,14 +423,14 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a0f90fd28ec700a44bdde0ec99dd5825, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: df0797f3ebf5f354799761bccd985e25, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
-  Priority: 128
+  Priority: 141
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -519,7 +520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e0a24246f41ee4e8e24588eaea9a2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FireRate: 0
+  FireRate: 10
   damage: 15
   whatToHit:
     serializedVersion: 2
@@ -527,6 +528,7 @@ MonoBehaviour:
   BulletPrefab: {fileID: 4000012846823532, guid: 5a4de3b582ead2848937d150952e00f6,
     type: 2}
   direction: {x: 0, y: 0, z: 0}
+  timeToFire: 0
 --- !u!124 &124000012544330202
 Behaviour:
   m_ObjectHideFlags: 1

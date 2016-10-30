@@ -3,12 +3,14 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\audio_manager_script.cs">
     <Files>
       <File FileName="Assets\Scripts\enemy_script.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\destroyer_player.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\player_script.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\player_script.cs" Line="8" Column="14" />
       <File FileName="Assets\Scripts\gun_script.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\arm_rotation_script.cs" Line="33" Column="6" />
-      <File FileName="Assets\Scripts\move_bullet_script.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\audio_manager_script.cs" Line="27" Column="5" />
+      <File FileName="Assets\Scripts\move_bullet_script.cs" Line="33" Column="46" />
+      <File FileName="Assets\Scripts\score_manager_script.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\destroyer_player.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\arm_rotation_script.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EnemyAI.cs" Line="36" Column="47" />
+      <File FileName="Assets\Scripts\audio_manager_script.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

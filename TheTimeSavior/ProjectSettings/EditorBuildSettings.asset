@@ -4,4 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Level_Hub.unity
+  - enabled: 1
+    path: Assets/Scenes/Level_Present.unity
+  - enabled: 1
+    path: Assets/Scenes/Level_Future.unity
+  - enabled: 1
+    path: Assets/Scenes/Level_Past.unity

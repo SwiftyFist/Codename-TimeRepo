@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+//Script che gestisce le musiche in-game è collegato al game master e non viene mai distrutto
+//Permette di creare gli oggetti per le musiche tramite codice e di cambiare valori come volume e pitch
 
 [System.Serializable]
 public class Sound {
@@ -34,9 +35,10 @@ public class Sound {
 
 
 public class audio_manager_script : MonoBehaviour {
-
+	//Script richiamabile ovunque
 	public static audio_manager_script _audioM;
 
+	//Vettore che contiene tutte le canzoni da inserire nel inspector
 	[SerializeField]
 	Sound[] sounds;
 
@@ -47,15 +49,18 @@ public class audio_manager_script : MonoBehaviour {
 
 	void Start ()
 	{
+		
 		for ( int i = 0; i < sounds.Length; i++)
 		{
 			GameObject _go = new GameObject("Sound_" + i + "_" + sounds[i].name);
 			sounds [i].SetSource (_go.AddComponent<AudioSource> ());
+			GameObject.DontDestroyOnLoad (_go);
 		}
 
 		PlaySound ("test");
 	}
 
+	//Funzione che fa partire una canzone dandogli come parametro una stringa
 	public void PlaySound (string _name)
 	{
 		for (int i = 0; i < sounds.Length; i++) 
