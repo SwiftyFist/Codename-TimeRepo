@@ -6,7 +6,7 @@ public class destroyer_player : MonoBehaviour
 {
 	//ds_player è la variabile usata per accedere alle variabili pubbliche di questo script, velocityTimeProblem è la velocità del problema che insegue il player
     public static destroyer_player ds_player;
-    public static float velocityTimeProblem = 2f;
+    public static float velocityTimeProblem = 3f;
     
     void Awake()
     {
@@ -26,9 +26,14 @@ public class destroyer_player : MonoBehaviour
 	//Tutto il resto con cui collide viene distrutto per mantenere il gioco sempre leggero.
 	public void OnTriggerEnter2D(Collider2D collision)
     {
-		if (collision.gameObject.tag == "Player")
+		if (collision.gameObject.tag == "Player") {
 			SceneManager.LoadScene ("Level_Hub");
-		else {
+			player_script.pl_script._transform.position = player_script.pl_script.position;
+			velocityTimeProblem = 3f;
+			score_manager_script.SendToHub ();
+			score_manager_script.Reset ();
+		
+		}else {
 			Destroy (collision.gameObject);
 		}
 

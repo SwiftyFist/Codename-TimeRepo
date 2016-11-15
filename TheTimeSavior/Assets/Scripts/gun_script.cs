@@ -4,12 +4,12 @@ using System.Collections;
 public class gun_script : MonoBehaviour {
 	//Script richiamabile ovunque
 	public static gun_script gun;
-    public float FireRate = 0;
+    public float FireRate = 10;
     public float damage = 10;
     public LayerMask whatToHit;
     public Transform BulletPrefab;
 	public Vector3 direction;
-	public float timeToFire = 0;
+	float timeToFire = 0;
     Transform FirePoint;
     private Vector2 Mouse;
     private Vector2 firePointPosition;

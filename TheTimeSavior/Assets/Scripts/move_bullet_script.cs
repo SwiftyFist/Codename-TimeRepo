@@ -4,9 +4,9 @@ using System.Collections;
 public class move_bullet_script : MonoBehaviour {
 
 	//Velocità del proiettile 
-	public int moveSpeed = 25;
-	public int pointsToAdd = 10;
-
+	public int moveSpeed ;
+	public int pointsToAdd ;
+	public int damageToGive;
 
 
 
@@ -22,31 +22,28 @@ public class move_bullet_script : MonoBehaviour {
 
 
 
-	// Se il proiettile collide con il nemico questo viene distrutto ( da modificare) 
-	// Ogni volta che un nemico viene distrutto anche il proiettile si distrugge e il Destroyer_Player si rallenta di 0.3 fino alla velocità minima di Destroyer_player
-	public void OnCollisionEnter2D(Collision2D collision)
+	// Se il proiettile collide con il nemico questo viene danneggiato di 1 attraverso la funzione giveDamage del enemy health manager
+	// Ogni volta che il proiettile collide con nemici o elementi di gioco questo viene distrutto
+
+	void OnTriggerEnter2D(Collider2D other)
 	{
-		if (collision.gameObject.tag == "Enemy") 
+		if (other.tag == "Enemy") 
 		{
-			Destroy (collision.gameObject);
 			Destroy (gameObject);
-			score_manager_script.AddPoints(pointsToAdd);
-			  if(destroyer_player.velocityTimeProblem>=1.9)
-			      {
-			         destroyer_player.velocityTimeProblem = destroyer_player.velocityTimeProblem -0.3f;
-			      }
+			other.GetComponent<enemy_health_manager_script>().giveDamage(damageToGive);
+
 		}
-		//Se il proiettile collide con le piattaforme di gioco , il proiettile si distrugge
-		//NON FUNZIONANTE
-		else if (collision.gameObject.tag == "LevelObject") 
-		{
+
+		if (other.tag == "LevelObject"){
 			Destroy (gameObject);
-
-	    }
-
-
-}
+		}
+	}
 
 
+		
+	   
 
-}
+ }
+
+
+

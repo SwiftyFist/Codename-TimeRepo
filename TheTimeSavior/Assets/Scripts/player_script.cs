@@ -3,9 +3,13 @@ using System.Collections;
 
 public class player_script : MonoBehaviour
 {
+	
 	//Script richiamabile ovunque
     public static player_script pl_script;
-	public  Transform _transform;
+	public float UpgradePoints = 0; 
+	public   Transform _transform;
+	//variabile che contiene la pos del player nel level_hub
+	public Vector3 position;
     private Animator _animator;
     private Rigidbody2D _rigidbody;
     private AudioSource _jumpsound;
@@ -17,7 +21,8 @@ public class player_script : MonoBehaviour
 	//controlla se è a terra
     private bool isGrounded = false;
 
-    public float JumpForce = 5f;
+    public float JumpForce = 6f;
+	float moveVelocity;
     public float velocity = 5f;
     public Transform player_ground;
     public LayerMask  Layer_Ground;
@@ -39,6 +44,7 @@ public class player_script : MonoBehaviour
         _animator = GetComponent<Animator>();
         _transform = GetComponent<Transform>();
         _jumpsound = GetComponent<AudioSource>();
+		position = new Vector3 (_transform.position.x, _transform.position.y, _transform.position.z);
        
     }
 
@@ -48,6 +54,7 @@ public class player_script : MonoBehaviour
 
     void Update()
     {
+		
 		//Prende il valore dell'asse x
         direction = Input.GetAxis("Horizontal");
 		//Per vedere se è a terra controlla con un cerchio molto piccolo ai piedi del player(player_ground) se si incontra con il terreno (layer_ground)
@@ -70,18 +77,13 @@ public class player_script : MonoBehaviour
 
     void FixedUpdate()
     {
+		moveVelocity = 0;
        //muove il giocatore se non sta fermo sull'asse horizontal e imposta la velocità in base se va a sinistra o a destra
 		//Imposta le variabili del animator per eseguire le animazioni in maniera corretta
-        if (direction != 0)
+        if (direction != 0.1)
         {
-            if (lookright)
-            {
-                _rigidbody.velocity = new Vector2(direction * velocity, _rigidbody.velocity.y);
-            }
-            else
-            {
-                _rigidbody.velocity = new Vector2(direction * velocity, _rigidbody.velocity.y);
-            }
+			    moveVelocity = velocity;
+			    _rigidbody.velocity = new Vector2(direction * moveVelocity, _rigidbody.velocity.y);
                 _animator.SetFloat("Horizontal_Speed", Mathf.Abs (_rigidbody.velocity.x));
         }
         else

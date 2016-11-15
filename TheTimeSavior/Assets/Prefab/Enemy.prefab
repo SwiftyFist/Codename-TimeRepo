@@ -13,6 +13,7 @@ GameObject:
   - 114: {fileID: 11490228}
   - 50: {fileID: 5078492}
   - 61: {fileID: 6144494}
+  - 114: {fileID: 114000011609248134}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -58,7 +59,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 107548}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.85, y: 0.51, z: 0}
+  m_LocalPosition: {x: 32.78, y: -6.9442353, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -120,9 +121,9 @@ BoxCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: 0.026860617, y: 2.5397315}
+  m_Offset: {x: 0.107114814, y: 2.5397315}
   serializedVersion: 2
-  m_Size: {x: 14.372881, y: 7.6849003}
+  m_Size: {x: 12.222054, y: 7.6849003}
 --- !u!61 &6144494
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -165,14 +166,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69e914cba04023b499dca9e744057682, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpforce: 40
-  velocity: 6
-  canjump: 0
+  velocity: 14
   enemy_ground: {fileID: 489896}
   layer_ground:
     serializedVersion: 2
     m_Bits: 256
-  isGrounded: 0
+  AttackTime: 2
 --- !u!212 &21268842
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -217,3 +216,16 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 107548}
   m_IsPrefabParent: 1
+--- !u!114 &114000011609248134
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 107548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d44dd06428726447b683e53655f81d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyHealth: 4
+  pointsOnDeath: 10

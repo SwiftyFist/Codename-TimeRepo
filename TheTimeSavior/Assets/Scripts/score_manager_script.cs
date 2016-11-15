@@ -34,4 +34,8 @@ public class score_manager_script : MonoBehaviour {
 		score = 0;
 	}
 
+	public static void SendToHub()
+	{
+		player_script.pl_script.UpgradePoints = player_script.pl_script.UpgradePoints + score;
+	}
 }

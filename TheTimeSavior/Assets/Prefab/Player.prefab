@@ -48,7 +48,6 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 485224}
-  - {fileID: 4000011087501882}
   - {fileID: 4000011382265098}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -90,7 +89,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 144474}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 5cbfdb40a1c7c744bac0a310b7da838d, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: -0.015284181, y: 0.0014008284}
@@ -198,7 +197,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ca9ca13df391a74c970e371004511d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  UpgradePoints: 0
   _transform: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
   lookright: 1
   isGrounded: 0
   JumpForce: 25
@@ -251,25 +252,6 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 144474}
   m_IsPrefabParent: 1
---- !u!1 &1000011598549630
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 4000011087501882}
-  - 20: {fileID: 20000010181997244}
-  - 124: {fileID: 124000012544330202}
-  - 92: {fileID: 92000012273505616}
-  - 81: {fileID: 81000010783903728}
-  m_Layer: 0
-  m_Name: MainCamera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1000011948367778
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,19 +301,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4000011087501882
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011598549630}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.03, y: 3, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 456930}
-  m_RootOrder: 1
 --- !u!4 &4000011104674110
 Transform:
   m_ObjectHideFlags: 1
@@ -358,7 +327,7 @@ Transform:
   m_Children:
   - {fileID: 4000013008882904}
   m_Father: {fileID: 456930}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!4 &4000013008882904
 Transform:
   m_ObjectHideFlags: 1
@@ -373,47 +342,6 @@ Transform:
   - {fileID: 4000011104674110}
   m_Father: {fileID: 4000011382265098}
   m_RootOrder: 0
---- !u!20 &20000010181997244
-Camera:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011598549630}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 1
-  orthographic size: 10.01
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
-  m_StereoMirrorMode: 0
---- !u!81 &81000010783903728
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011598549630}
-  m_Enabled: 1
 --- !u!82 &82000012570351644
 AudioSource:
   m_ObjectHideFlags: 1
@@ -488,13 +416,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!92 &92000012273505616
-Behaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011598549630}
-  m_Enabled: 1
 --- !u!114 &114000013567676442
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -528,14 +449,6 @@ MonoBehaviour:
   BulletPrefab: {fileID: 4000012846823532, guid: 5a4de3b582ead2848937d150952e00f6,
     type: 2}
   direction: {x: 0, y: 0, z: 0}
-  timeToFire: 0
---- !u!124 &124000012544330202
-Behaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011598549630}
-  m_Enabled: 1
 --- !u!212 &212000013979887668
 SpriteRenderer:
   m_ObjectHideFlags: 1

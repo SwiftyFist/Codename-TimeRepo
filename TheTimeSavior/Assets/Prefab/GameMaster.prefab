@@ -56,7 +56,6 @@ GameObject:
   - 4: {fileID: 4000013591222556}
   - 114: {fileID: 114000013464938638}
   - 114: {fileID: 114000010504335296}
-  - 114: {fileID: 114000010581822244}
   m_Layer: 0
   m_Name: GameMaster
   m_TagString: Untagged
@@ -107,19 +106,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cc434f8ca30c454c8253134998bec57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114000010581822244
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000013216977064}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2279ddb19fb51c4db740553a810bc17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  backgrounds: []
-  smoothing: 1
 --- !u!114 &114000011407176874
 MonoBehaviour:
   m_ObjectHideFlags: 1

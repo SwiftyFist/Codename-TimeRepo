@@ -20,10 +20,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011994131034}
   - 212: {fileID: 212000013858412174}
-  - 114: {fileID: 114000013972192338}
-  - 50: {fileID: 50000011707597602}
-  - 114: {fileID: 114000012657107986}
   - 58: {fileID: 58000011890805070}
+  - 114: {fileID: 114000013716519824}
+  - 114: {fileID: 114000011823184934}
+  - 50: {fileID: 50000010611585550}
   m_Layer: 0
   m_Name: Enemy_Type_2
   m_TagString: Enemy
@@ -38,13 +38,13 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010582885768}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.33, y: -6.998, z: 0}
+  m_LocalPosition: {x: 5.68, y: -4.9, z: 0}
   m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!50 &50000011707597602
+--- !u!50 &50000010611585550
 Rigidbody2D:
   serializedVersion: 2
   m_ObjectHideFlags: 1
@@ -53,14 +53,14 @@ Rigidbody2D:
   m_GameObject: {fileID: 1000010582885768}
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 2
+  m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!58 &58000011890805070
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -75,7 +75,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.21696396
---- !u!114 &114000012657107986
+--- !u!114 &114000011823184934
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -83,15 +83,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000010582885768}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98ff138cecf08264a8d5f56a4c52d70f, type: 3}
+  m_Script: {fileID: 11500000, guid: 0d44dd06428726447b683e53655f81d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  updateRate: 2
-  speed: 1300
-  fMode: 0
-  pathIsEnded: 0
-  nextWaypointDistance: 3
---- !u!114 &114000013972192338
+  enemyHealth: 4
+  pointsOnDeath: 10
+--- !u!114 &114000013716519824
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -99,25 +96,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000010582885768}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Script: {fileID: 11500000, guid: 8dd153f7260693c42b260c378a95d009, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  drawGizmos: 1
-  detailedGizmos: 0
-  startEndModifier:
-    addPoints: 0
-    exactStartPoint: 3
-    exactEndPoint: 3
-    useRaycasting: 0
-    mask:
-      serializedVersion: 2
-      m_Bits: 4294967295
-    useGraphRaycasting: 0
-  traversableTags: -1
-  traversableTagsCompatibility:
-    tagsChange: -1
-    tagsSet: -1
-  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  moveSpeed: 8
+  playerRange: 10
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  playerInRange: 0
 --- !u!212 &212000013858412174
 SpriteRenderer:
   m_ObjectHideFlags: 1
