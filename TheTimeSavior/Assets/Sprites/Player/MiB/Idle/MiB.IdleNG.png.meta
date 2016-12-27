@@ -1,0 +1,731 @@
+fileFormatVersion: 2
+guid: 7e4153a01430ea54eb2e30e01f23aaf6
+timeCreated: 1482095255
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MiB.IdleNG_0
+    21300002: MiB.IdleNG_1
+    21300004: MiB.IdleNG_2
+    21300006: MiB.IdleNG_3
+    21300008: MiB.IdleNG_4
+    21300010: MiB.IdleNG_5
+    21300012: MiB.IdleNG_6
+    21300014: MiB.IdleNG_7
+    21300016: MiB.IdleNG_8
+    21300018: MiB.IdleNG_9
+    21300020: MiB.IdleNG_10
+    21300022: MiB.IdleNG_11
+    21300024: MiB.IdleNG_12
+    21300026: MiB.IdleNG_13
+    21300028: MiB.IdleNG_14
+    21300030: MiB.IdleNG_15
+    21300032: MiB.IdleNG_16
+    21300034: MiB.IdleNG_17
+    21300036: MiB.IdleNG_18
+    21300038: MiB.IdleNG_19
+    21300040: MiB.IdleNG_20
+    21300042: MiB.IdleNG_21
+    21300044: MiB.IdleNG_22
+    21300046: MiB.IdleNG_23
+    21300048: MiB.IdleNG_24
+    21300050: MiB.IdleNG_25
+    21300052: MiB.IdleNG_26
+    21300054: MiB.IdleNG_27
+    21300056: MiB.IdleNG_28
+    21300058: MiB.IdleNG_29
+    21300060: MiB.IdleNG_30
+    21300062: MiB.IdleNG_31
+    21300064: MiB.IdleNG_7.1
+    21300066: MiB.IdleNG_7.2
+    21300068: MiB.IdleNG_7.3
+    21300070: MiB.IdleNG_7.4
+    21300072: MiB.IdleNG_7.5
+    21300074: MiB.IdleNG_32
+    21300076: MiB.IdleNG_33
+    21300078: MiB.IdleNG_34
+    21300080: MiB.IdleNG_35
+    21300082: MiB.IdleNG_36
+    21300084: MiB.IdleNG_37
+    21300086: MiB.IdleNG_38
+    21300088: MiB.IdleNG_39
+    21300090: MiB.IdleNG_40
+    21300092: MiB.IdleNG_41
+    21300094: MiB.IdleNG_42
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 30
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MiB.IdleNG_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 411
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 411
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 411
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 411
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 411
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 411
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 411
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 411
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 329
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 329
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_10
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 329
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 247
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 247
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 247
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 247
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 247
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_16
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 247
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_17
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 247
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_18
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 247
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 165
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 165
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 165
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 165
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_24
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 165
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 165
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_26
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 165
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 83
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 83
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 83
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_30
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 83
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 83
+        width: 48
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_7.1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 329
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_7.2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 329
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_7.3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 329
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_7.4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 329
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_7.5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 329
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_32
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 83
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 83
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_34
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 83
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_36
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_37
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_38
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_40
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MiB.IdleNG_42
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

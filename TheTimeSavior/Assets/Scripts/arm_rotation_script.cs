@@ -38,7 +38,15 @@ public class arm_rotation_script : MonoBehaviour {
 			
             aim_angle = Mathf.Atan2(y, x) * Mathf.Rad2Deg;
 			//Debug.Log ("rotation = "+aim_angle);
-            _transform.rotation = Quaternion.Euler(0f,0f,aim_angle);
+			if (direction == true) 
+			{
+				rotationOffset = 90;
+			}
+			if (direction == false) 
+			{
+				rotationOffset = -90;
+			}
+			_transform.rotation = Quaternion.Euler(0f,0f,aim_angle+rotationOffset);
 
 			//Due If che fanno ruotare il player in base a dove si trova l'arma
 			//Mirando a sinistra con lo stick il player ruota a sinistra in automatico, lo stesso a destra
@@ -78,14 +86,14 @@ public class arm_rotation_script : MonoBehaviour {
 		//Calcola l'angolo
         float rotZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg; 
 		//Debug.Log ("rotation = "+rotZ);
-		/*if (direction == true) 
+		if (direction == true) 
 		{
-			rotationOffset = 0;
+			rotationOffset = 90;
 		}
 		if (direction == false) 
 		{
-			rotationOffset = 0;
-		}*/
+			rotationOffset = -90;
+		}
 			//Ruota il braccio
 		_transform.rotation = Quaternion.Euler(0f, 0f, rotZ + rotationOffset);
 

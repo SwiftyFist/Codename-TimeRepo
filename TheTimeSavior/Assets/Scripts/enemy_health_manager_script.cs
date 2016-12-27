@@ -3,14 +3,16 @@ using System.Collections;
 
 public class enemy_health_manager_script : MonoBehaviour {
 
+	public static enemy_health_manager_script hl_script;
 	public int enemyHealth;
 
 	//public GameObject deathEffect;
 
 	public int pointsOnDeath;
 
-	void Start () {
+	void Awake () {
 	
+		hl_script = this;
 	}
 	
 

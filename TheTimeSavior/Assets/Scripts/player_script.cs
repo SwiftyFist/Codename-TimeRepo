@@ -46,7 +46,7 @@ public class player_script : MonoBehaviour
         _jumpsound = GetComponent<AudioSource>();
 		position = new Vector3 (_transform.position.x, _transform.position.y, _transform.position.z);
        
-    }
+   }
 
 
    
@@ -90,7 +90,8 @@ public class player_script : MonoBehaviour
         {
             _animator.SetFloat("Horizontal_Speed", 0f);
         }
-        _animator.SetFloat("Vertical_Speed", _rigidbody.velocity.y);
+		//Per le due animazioni di salto
+        //_animator.SetFloat("Vertical_Speed", _rigidbody.velocity.y);
 
 
        
